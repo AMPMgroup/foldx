@@ -11,7 +11,7 @@ To obtain the energy differences in the binding of an antibody-antigen (Ab-Ag) c
 2. Enter the PDB directory: path/to/pdbdirectory
 3. Enter the mutation positions in the following format:
    - WT residue: Enter the wild-type residue (A->Z).
-   - Chain: Enter the chain identifier (A->Z)
+   - Chain: Enter the chain identifier (A->Z).
    - Residue number: Enter the residue number (1->9).
    - Mutant residue: Enter the mutant residue (a->Z).
      The format for specifying mutants is for example LC43a (residue, chain, number, mutation),
