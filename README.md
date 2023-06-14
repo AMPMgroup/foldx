@@ -36,3 +36,6 @@ FoldX uses output-file as a tag to label different outputs from different comman
 - Unrecognized_molecules.txt
 - energies_14_PS.txt
 - energies_5_PS.txt
+
+If you need additional information regarding the "PositionScan" command, you may find it useful to consult the provided link
+https://foldxsuite.crg.eu/command/PositionScan
