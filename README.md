@@ -28,6 +28,6 @@ To obtain the energy differences in the binding of an antibody-antigen (Ab-Ag) c
 5. If you type 'quit' at any time, the program will stop immediately.
    The program will not proceed to the next step and will exit.
    Make sure to save your progress before typing 'quit'.
-6. The program will generate a configuration file named 'config_PS.cfg' and execute the FoldX program.
+6. The program will generate a configuration file named 'config_PS.cfg' and execute the FoldX --command=PositionScan program.
 
-
+FoldX uses output-file as a tag to label different outputs from different commands in batch runs. After running PositionScan you'll get fourthree files to look at.
