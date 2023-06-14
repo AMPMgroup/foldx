@@ -30,4 +30,9 @@ To obtain the energy differences in the binding of an antibody-antigen (Ab-Ag) c
    Make sure to save your progress before typing 'quit'.
 6. The program will generate a configuration file named 'config_PS.cfg' and execute the FoldX --command=PositionScan program.
 
-FoldX uses output-file as a tag to label different outputs from different commands in batch runs. After running PositionScan you'll get fourthree files to look at.
+FoldX uses output-file as a tag to label different outputs from different commands in batch runs. After running PositionScan you'll get five files to look at:
+- PS_PS.fxout
+- PS_PS_scanning_output.txt
+- Unrecognized_molecules.txt
+- energies_14_PS.txt
+- energies_5_PS.txt
