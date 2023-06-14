@@ -8,12 +8,12 @@ FoldX is a software application for molecular modeling and protein design that c
 
 To obtain the energy differences in the binding of an antibody-antigen (Ab-Ag) complex due to a specific mutation at a particular position (e.g., Ala to Ser), you can employ the following instructions:
 1. Enter the PDB name.
-2. Enter the PDB directory.
+2. Enter the PDB directory: path/to/pdbdirectory
 3. Enter the mutation positions in the following format:
    - WT residue: Enter the wild-type residue (A->Z).
    - Chain: Enter the chain identifier (A->Z)
-   - Residue number: Enter the residue number.
-   - Mutant residue: Enter the mutant residue (single character).
+   - Residue number: Enter the residue number (1->9).
+   - Mutant residue: Enter the mutant residue (a->Z).
      The format for specifying mutants is for example LC43a (residue, chain, number, mutation),
      where the mutant residue can have the following options:
      + a: 20 amino acids
@@ -24,7 +24,7 @@ To obtain the energy differences in the binding of an antibody-antigen (Ab-Ag) c
      + n: 4 bases (mutates any base to the other three and itself)
      + Or any amino acid in one-letter code, e.g., LC43G
    - Repeat step 3 to add more mutation positions.
-4. Enter the output directory where you want to save the results.
+4. Enter the output directory where you want to save the results: path/to/output.
 5. If you type 'quit' at any time, the program will stop immediately.
    The program will not proceed to the next step and will exit.
    Make sure to save your progress before typing 'quit'.
