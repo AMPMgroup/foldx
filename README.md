@@ -8,7 +8,7 @@ FoldX is a software application for molecular modeling and protein design that c
 
 To obtain the energy differences in the binding of an antibody-antigen (Ab-Ag) complex due to a specific mutation at a particular position (e.g., Ala to Ser), you can employ the following instructions:
 1. Enter the PDB name.
-2. Enter the PDB directory: path/to/pdbdirectory
+2. Enter the PDB directory: `path/to/pdb-directory`
 3. Enter the mutation positions in the following format:
    - WT residue: Enter the wild-type residue (A->Z).
    - Chain: Enter the chain identifier (A->Z).
@@ -24,13 +24,12 @@ To obtain the energy differences in the binding of an antibody-antigen (Ab-Ag) c
      + n: 4 bases (mutates any base to the other three and itself)
      + Or any amino acid in one-letter code, e.g., LC43G
    - Repeat step 3 to add more mutation positions.
-4. Enter the output directory where you want to save the results: path/to/output.
-5. If you type 'quit' at any time, the program will stop immediately.
+4. Enter the output directory where you want to save the results: `path/to/output`.
+5. If you type `quit` at any time, the program will stop immediately.
    The program will not proceed to the next step and will exit.
-   Make sure to save your progress before typing 'quit'.
-6. The program will generate a configuration file named 'config_PS.cfg' and execute the FoldX --command=PositionScan program.
+6. The program will generate a configuration file named `config_PS.cfg` and execute the `FoldX --command=PositionScan` program.
 
-FoldX uses output-file as a tag to label different outputs from different commands in batch runs. After running PositionScan you'll get five files to look at:
+FoldX uses output-file as a tag to label different outputs from different commands in batch runs. After running `PositionScan` you'll get five files to look at:
 - PS_PS.fxout
 - PS_PS_scanning_output.txt
 - Unrecognized_molecules.txt
